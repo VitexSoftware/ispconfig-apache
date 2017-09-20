@@ -1,0 +1,3 @@
+ispconfig-apache: web-application-should-not-depend-unconditionally-on-apache2
+ispconfig-apache: new-package-should-close-itp-bug
+

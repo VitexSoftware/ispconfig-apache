@@ -1,0 +1,19 @@
+Source: ispconfig-apache
+Section: web
+Priority: optional
+Maintainer: vitex <vitex@kickass.vitexsoftware.cz>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/VitexSoftware/ispconfig-apache
+Vcs-Git: git@github.com:VitexSoftware/ispconfig-apache.git
+Vcs-Browser: https://github.com/VitexSoftware/ispconfig-apache
+
+Package: ispconfig-apache
+Architecture: any
+Depends: apache2
+Description: Allow apache use ispconfig's *.vhost config files
+ Default configuration of apache do not include all files in
+ /etc/apache/sites-enabled - but only *.conf 
+ This package add  configuration file
+ /etc/apache2/conf-enabled/ispconfig-apache.conf
+ that include also *.vhost config files.
