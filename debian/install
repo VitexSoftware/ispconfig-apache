@@ -1,1 +1,1 @@
-ispconfig-apache.conf etc/apache2/conf-available/
+*.conf etc/apache2/conf-available/

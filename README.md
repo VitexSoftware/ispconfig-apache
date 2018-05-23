@@ -5,12 +5,15 @@ Ispconfig Apache config for Debian / Ubuntu
 
 Debian package allowing apache use ispconfig's *.vhost config files.
 
+Also provide fix for buggy let's encrypt support
+
 Building package
 ----------------
 
     apt-get -y install devscripts dpkg-dev
     git clone git@github.com:VitexSoftware/ispconfig-apache.git
     debuild -i -us -uc -b
+
 
 
 Installation
